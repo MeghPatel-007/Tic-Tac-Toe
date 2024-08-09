@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    /* text-shadow: .1rem .1rem .2rem rgb(2, 2, 2);  */
+    color: white;
+    margin: .5rem;
+}
+
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4535C1;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+.scoreBoard {
+    display: flex;
+}
+
+.scoreBox {
+    height: 3rem;
+    width: 15rem;
+    margin: .2rem .2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    border: 7px solid  #478CCF;
+    box-shadow: .1rem .1rem .2rem black;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color:#36C2CE;
+
+    
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+.gameBox{
+    background-color: #36C2CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    width: 20rem;
+    border-radius: .5rem;
+    margin: .5rem;
+    border: none;
+    box-shadow: .1rem .1rem .2rem black;
+    flex-wrap: wrap;
+    padding: 3rem;
+    transition: 5s;
+}
+
+input {
+    display: none;
+}
+
+.box {
+    height: 5.5rem;
+    width: 5.5rem;
+    background-color: #77E4C8;
+    margin: .2rem .4rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: .1rem .1rem .2rem black;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    transition: .5s;
+}
+
+.gameBox :hover {
+    height: 6rem;
+    width: 6rem;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+.footer {
+    width: 30rem;
+    height: 4.5rem;
+    background-color: #478CCF;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: .1rem .1rem .2rem black;
+}
+
+.resetBtn {
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: .1rem .1rem .2rem black;
+    background-color: #77E4C8;
+    color: white;
+    margin: .5rem;
+    font-weight: 1000;
+
+}
+
+.newBtn {
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: .1rem .1rem .2rem black;
+    background-color: #77E4C8;
+    color: white;
+    margin: .5rem;
+    font-weight: 1000;
+}
